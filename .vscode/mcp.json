@@ -1,0 +1,19 @@
+{
+	"servers": {
+		"github-mcp-server": {
+			"url": "https://api.githubcopilot.com/mcp/",
+			"type": "http"
+		},
+		"MongoDB": {
+		"command": "npx",
+		"args": [
+			"-y",
+			"mongodb-mcp-server",
+			"--connectionString",
+			"mongodb://localhost:27017/task-tracker",
+		]
+	   }
+
+	},
+	"inputs": []
+}
